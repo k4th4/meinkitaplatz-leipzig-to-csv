@@ -43,7 +43,9 @@ In Replit wird das Programm mit `Run` ausgeführt und anschließend kann die Dat
 
 ## Author
 
-[@K4th4]
+[k4th4]([https://github.com/k4th4])
+
+
 
 ## Version History
 
