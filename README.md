@@ -17,18 +17,23 @@ Beispiel:
 ### 1. Fork des Repls auf Replit
 
 https://replit.com/@KatharinaNi/meinkitaplatz-leipzig-to-csv
+In dieser Anleitung beziehe ich mich auf Replit, aber natürlich kann das Programm aus lokal ausgeführt werden.
 
 ### 2. Download der HTML Dateien
 
 Zuerst muss ich mich unter https://www.meinkitaplatz-leipzig.de/app/de/nutzerkonto einloggen und dann den Menüpunkt `Bedarfsanmeldung erstellen` auswählen. Dann ist es empfehlenswert Filter hinzuzufügen, wie z.B. Entfernung zum Wohnort, um die Zahl der Einrichtungen einzugrenzen. Das ist aber nicht notwendig.
 
-Die HTML-Dateien der einzelnen Unter-Seiten (unten rechts 1, 2, 3, 4, 5 usw) müssen bei der aktuellen Programmversion manuell heruntergelanden werden. Dazu nutze ich die Chrome Extension `Save Page WE` : https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof
+Die HTML-Dateien der einzelnen Unter-Seiten (unten rechts: 1, 2, 3, 4, 5 usw) müssen bei der aktuellen Programmversion manuell heruntergelanden werden. Dazu nutze ich die Chrome Extension `Save Page WE` : https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof
 
 ### Upload der HTML Dateien auf Replit in den Ordner `download`
 
-![alt text](/examples/download_folder_example.png)
+In diesem Beispiel gibt es drei Unterseiten (unten rechts: 1, 2, 3) und damit auch drei html-Dateien.
+
+![Beispiel Download-Ordner](/examples/download_folder_example.png)
 
 ### Anpassung der Variable `local_file_list` in `main.py` an die Anzahl und Bezeichnung der html-dateien im Ordner `download`
+
+In diesem Beispiel gibt es drei Unterseiten (unten rechts: 1, 2, 3) und damit auch drei html-Dateien in der `local_file_list`.
 
 ```
 local_file_list = [
@@ -43,8 +48,7 @@ In Replit wird das Programm mit `Run` ausgeführt und anschließend kann die Dat
 
 ## Author
 
-[k4th4]([https://github.com/k4th4])
-
+[k4th4](https://github.com/k4th4)
 
 
 ## Version History
