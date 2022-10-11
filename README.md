@@ -28,8 +28,6 @@ Die HTML-Dateien der einzelnen Unter-Seiten (unten rechts 1, 2, 3, 4, 5 usw) mü
 
 ![alt text]((https://github.com//k4th4/meinkitaplatz-leipzig-to-csv/main/examples/download_folder_example.png?raw=true))
 
-https://raw.githubusercontent.com/k4th4/meinkitaplatz-leipzig-to-csv/main/examples/download_folder_example.png?token=GHSAT0AAAAAABXHDAAQN75DOU7JHC372JMQY2FHFDQ
-
 ### Anpassung der Variable `local_file_list` in `main.py` an die Anzahl und Bezeichnung der html-dateien im Ordner `download`
 
 ```
