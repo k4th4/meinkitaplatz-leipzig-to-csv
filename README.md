@@ -1,9 +1,9 @@
 # meinkitaplatz-leipzig to csv
 
-Trotz der Vergabe der Kitaplätze über die Website, muss man oft alle Einrichtungen abtelefonieren. Es gibt jedoch keine eingebaute Möglichkeit des Datenexports.
+Trotz der Vergabe der Kitaplätze über die zentrale Website, muss man oft alle Einrichtungen abtelefonieren. Es gibt jedoch keine eingebaute Möglichkeit des Datenexports.
 Mit diesen einfachen Python Skript können die Informationen über Kindertageststätten im Leipziger Kivan-Tool https://www.meinkitaplatz-leipzig.de/ extrahiert und in eine CSV exportiert werden.
 
-Beispiel: 
+### Beispiel: 
 
 |einrichtungsname                                             |adresse                                    |ansprechpartner                      |telefonnummer       |traeger                                                     |
 |-------------------------------------------------------------|-------------------------------------------|-------------------------------------|--------------------|------------------------------------------------------------|
@@ -17,7 +17,7 @@ Beispiel:
 ### 1. Fork des Repls auf Replit
 
 https://replit.com/@KatharinaNi/meinkitaplatz-leipzig-to-csv
-In dieser Anleitung beziehe ich mich auf Replit, aber natürlich kann das Programm aus lokal ausgeführt werden.
+In dieser Anleitung beziehe ich mich auf Replit, aber natürlich kann das Programm auch lokal ausgeführt werden.
 
 ### 2. Download der HTML Dateien
 
@@ -25,13 +25,13 @@ Zuerst muss ich mich unter https://www.meinkitaplatz-leipzig.de/app/de/nutzerkon
 
 Die HTML-Dateien der einzelnen Unter-Seiten (unten rechts: 1, 2, 3, 4, 5 usw) müssen bei der aktuellen Programmversion manuell heruntergelanden werden. Dazu nutze ich die Chrome Extension `Save Page WE` : https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof
 
-### Upload der HTML Dateien auf Replit in den Ordner `download`
+### 3. Upload der HTML Dateien auf Replit in den Ordner `download`
 
 In diesem Beispiel gibt es drei Unterseiten (unten rechts: 1, 2, 3) und damit auch drei html-Dateien.
 
 ![Beispiel Download-Ordner](/examples/download_folder_example.png)
 
-### Anpassung der Variable `local_file_list` in `main.py` an die Anzahl und Bezeichnung der html-dateien im Ordner `download`
+### 4. Anpassung der Variable `local_file_list` in `main.py` an die Anzahl und Bezeichnung der html-dateien im Ordner `download`
 
 In diesem Beispiel gibt es drei Unterseiten (unten rechts: 1, 2, 3) und damit auch drei html-Dateien in der `local_file_list`.
 
@@ -42,14 +42,13 @@ local_file_list = [
 				"download/Kivan - Elternportal (2).html"]
 ```
 
-### Ausführen des Programms
+### 5. Ausführen des Programms
 
 In Replit wird das Programm mit `Run` ausgeführt und anschließend kann die Datei `kita_daten_uebersicht.csv` heruntergeladen werden.
 
 ## Author
 
 [k4th4](https://github.com/k4th4)
-
 
 ## Version History
 
