@@ -26,7 +26,7 @@ Die HTML-Dateien der einzelnen Unter-Seiten (unten rechts 1, 2, 3, 4, 5 usw) mü
 
 ### Upload der HTML Dateien auf Replit in den Ordner `download`
 
-![alt text](https://github.com//k4th4/meinkitaplatz-leipzig-to-csv/main/examples/download_folder_example.png?raw=true)
+![alt text](/examples/download_folder_example.png)
 
 ### Anpassung der Variable `local_file_list` in `main.py` an die Anzahl und Bezeichnung der html-dateien im Ordner `download`
 
